@@ -1,0 +1,12 @@
+.ui-button-purple
+{
+    background-color: rgb(4, 2, 75);
+    color: #fff;
+    border: #fff;
+}
+.ui-button-purple:hover
+{
+    background-color: rgb(8, 8, 24);
+    color: #fff;
+    border: #fff;
+}

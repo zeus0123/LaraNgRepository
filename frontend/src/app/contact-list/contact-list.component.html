@@ -1,0 +1,31 @@
+<br>
+<br>
+<h3>Contact List</h3>
+
+<br>
+<table class="table table-bordered">
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Address
+    </th>
+  </tr>
+  <tr *ngFor="let c of contacts">
+    <td>
+      {{c.name}}
+    </td>
+    <td>
+      {{c.address}}
+    </td>
+  </tr>
+
+</table>
+
+<input type="text" pInputText  />
+<span class="ui-float-label">
+    <input id="float-input" type="text" size="30" pInputText> 
+    <label for="float-input">Username</label>
+</span>
+<button pButton type="button" label="Click" class="ui-button-purple" ></button>
